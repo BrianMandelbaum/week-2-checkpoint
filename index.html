@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Moon Miner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h1 class="text-white text-center">Moon Miner</h1>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img class="moon-image" onclick="mine()" src="http://assets.stickpng.com/images/580b585b2edbce24c47b270b.png"
+            alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-white">
+          <h3>Current Amount of Cheese: <span id="cheese"></span></h3>
+          <h4>Purchase Clickable Upgrades: <button onclick="pickAxe()" class="btn-info">Pick Axe
+            </button><button onclick="battleAxe()" class="btn-info">Battle Axe</button>
+          </h4>
+          <h4>Purchase Automatic Upgrades: <button onclick="buyRover()" class="btn-success">Rover</button><button
+              onclick="buyDumptruck()" class="btn-success">Dump Truck</button>
+          </h4>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 text-white">
+          <div>Pick Axe Cost: <span id="buy-pickaxe"></span></div>
+          <div>Battle Axe Cost: <span id="buy-battleaxe"></span></div>
+          <div>Rover Cost: <span id="buy-rover"></span></div>
+          <div>Dump Truck Cost: <span id="buy-dumptruck"></span></div>
+        </div>
+        <div class="col-6 text-white">
+          <div>Pick Axe's Owned: <span id="pickaxe-owned"></span></div>
+          <div>Battle Axe's Owned: <span id="battleaxe-owned"></span></div>
+          <div>Rover's Owned: <span id="rover-owned"></span></div>
+          <div>Dump Truck's Owned: <span id="dumptruck-owned"></span></div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>

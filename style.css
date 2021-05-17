@@ -1,0 +1,9 @@
+.moon-image{
+  height: 40rem;
+  width: auto;
+}
+
+body{
+  background-size: cover;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/1033914530/thumb/1.jpg);
+}
